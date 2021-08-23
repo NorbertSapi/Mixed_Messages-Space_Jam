@@ -44,6 +44,14 @@ function mixedMessages () {
 
     // Action Finishing
     console.log(`${characterFirst} attempt to score and ${randomFinishingMove}.`);
+
+
+    // check array index of character
+    characters.findIndex(checkCharIndex)
+    
+    function checkCharIndex(num) {
+        return num === characterFirst;
+      }
 }
 
 mixedMessages();
